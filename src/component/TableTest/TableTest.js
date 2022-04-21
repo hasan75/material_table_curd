@@ -1,5 +1,6 @@
 import React from 'react';
 import MaterialTable from 'material-table';
+import MaterialTableIcons from '../MaterialTableIcons/MaterialTableIcons';
 
 const data = [
   { name: 'Mohammad', surname: 'Faisal', birthYear: 1999 },
@@ -16,6 +17,7 @@ const columns = [
 const TableTest = () => {
   return (
     <MaterialTable
+      //   icons={MaterialTableIcons}
       title='Material'
       columns={columns}
       data={data}
